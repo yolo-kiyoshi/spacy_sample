@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "eda"
+version = "0.1.0"
+description = ""
+authors = ["yolo-kiyoshi"]
+
+[tool.poetry.dependencies]
+jupyterlab = "*"
+python = "^3.7"
+spacy = {extras = ["ja"], version = "^2.3.0"}
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
